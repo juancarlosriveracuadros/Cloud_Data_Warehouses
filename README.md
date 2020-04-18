@@ -47,7 +47,7 @@ songplay:  songplay_id, start_time, user_id, level, song_id, artist_id, session_
 in sql_queries.py are the 4 kinds of basics queries: 
 
 basic queries:
--Drop table
+#### Drop table
     staging_events_table_drop
     staging_songs_table_drop
     songplay_table_drop
@@ -55,7 +55,7 @@ basic queries:
     song_table_drop
     artist_table_drop
     time_table_drop
--Create table
+#### Create table
     staging_events_table_create
     staging_songs_table_create
     songplay_table_create
@@ -63,15 +63,15 @@ basic queries:
     song_table_create
     artist_table_create
     time_table_create
--load_staging_tables from S3 AWS into SQL
+#### load_staging_tables from S3 AWS into SQL
     staging_events_copy
     staging_songs_copy 
--insert into fact and dim tables SQL
+#### insert into fact and dim tables SQL
     songplay_table_insert
     user_table_insert 
     song_table_insert
     artist_table_insert
     time_table_insert
 
-# dhw.cfg
+## dhw.cfg
 in the file dhw is the information about the AWS cluster in redschift and the AIM role. The path from the S3-buckets are in this file as well
