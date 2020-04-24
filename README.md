@@ -53,7 +53,7 @@ songplay:  songplay_id, start_time, user_id, level, song_id, artist_id, session_
     2.2) copy the information of the two S3 AWS datasets into SQL tables (staging_song, staging_events(page=NextSong)) with the function load_staging_tables\
     2.3) load the information from the staging tables into the fact and dim tables
 
-## querys
+## queries
 ### sql_queries.py
 in sql_queries.py are the 4 kinds of basics queries: 
 
