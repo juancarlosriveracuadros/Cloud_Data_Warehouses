@@ -85,5 +85,5 @@ basic queries:
     time_table_insert
 
 ## DHW information 
-**dhw.cfg**
+**dhw.cfg**\
 in the file dhw is the information about the AWS cluster in redschift and the AIM role. The path from the S3-buckets are in this file as well
