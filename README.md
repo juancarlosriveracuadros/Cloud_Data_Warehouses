@@ -4,7 +4,7 @@ Data Modelling for the company Sparkify. The data is a collection of songs and u
 **ETL explanation**
 ![focus](imagines_DWH/ETL.png)\
  \
- **DWH Architecture**
+ **DWH Architecture**\
  the architecture was made in AWS and consists of a redshift cluster. the cluster accesses two S3 folders and loads 2 json dataset. From the 2 datasets the dim. and fac. tables are created and loaded 
 ![focus](imagines_DWH/Project_Architecture_DWH.png)
 
