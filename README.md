@@ -1,6 +1,8 @@
 # Cloud Data Warehouses
 Data Modelling for the company Sparkify. The data is a collection of songs and user activities on their new music streaming app. The goal of the program is to understand what songs users are listening to. The information comes from two JSON directories the datasets are in S3 AWS. The program is a Postgres database with tables designed to optimize queries on song play analysis and an ETL pipeline created in python.
 
+
+
 ## JSON directories (Start Dataset)
 Song Dataset\
 The first dataset is a subset of real data from the Million Song Dataset. Each file is in JSON format and contains metadata about a song and the artist of that song.\
@@ -12,10 +14,10 @@ columns: artist, auth, firstName, gender, itemInSession, lastName, length, level
 
 ## Tables data base in Posgres
 Basic Table (Data from S3 aws) staging_song, staging_events
-1) Song Data:   s3://udacity-dend/song_data\
+1) **Song Data**:   's3://udacity-dend/song_data\'
    staging_song: num_songs, artist_id, artist_latitude, artist_longitude, artist_location, artist_name, song_id, title, duration, year
 
-2) Log Data:    s3://udacity-dend/log_data ; Log data json path: s3://udacity-dend/log_json_path.json\
+2) **Log Data**:    's3://udacity-dend/log_data' ; **Log data json path**: 's3://udacity-dend/log_json_path.json\'
    staging_events: staging_event_key, artist, auth, firstName, gender, iteminSession, lastName, length, level, location, method, page =   Next Song,    registration, sessionId, song, status, ts, userAgent, userId\
 it will be only load the row if page = NextSong
 
