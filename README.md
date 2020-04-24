@@ -36,7 +36,8 @@ Data from Log Dataset as staging_events (time_table, users) + NextSong
 
 **Fact Table**\
 JOIN beteween staging_song und staging_events (songplay)\
-songplay:  songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
+songplay:  songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent\
+![focus](imagines_DWH/ER_Diagram.png)
 
 ## Program description steps (create_tables.py and etl.py)
 **1) create_tables.py**\
