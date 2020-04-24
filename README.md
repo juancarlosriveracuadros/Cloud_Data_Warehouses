@@ -28,11 +28,11 @@ Basic Table (Data from S3 aws) staging_song, staging_events
 it will be only load the row if page = NextSong
 
 **Dimension Table**\
-Data from Song Dataset as staging_song (song_table, artist_table)
+-Data from Song Dataset as staging_song (song_table, artist_table)
 1) song_table: song_id, title, artist_id, year, duration
 2) artist_table: artist_id, artist_name, artist_location, artist_latitude, artist_longitude
 
-Data from Log Dataset as staging_events (time_table, users) + NextSong
+-Data from Log Dataset as staging_events (time_table, users) + NextSong
 1) time_table: start_time, hour, day, week, month, year, weekday
 2) users: userId, firstName, lastName, gender, level
 
