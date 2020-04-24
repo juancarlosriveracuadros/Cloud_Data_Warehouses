@@ -4,7 +4,7 @@ Data Modelling for the company Sparkify. The data is a collection of songs and u
 **ETL explanation**
 ![focus](imagines_DWH/ETL.png)\
  \
- ** DWH Architecture**
+ **DWH Architecture**
 ![focus](imagines_DWH/Project_Architecture_DWH.png)
 
 
