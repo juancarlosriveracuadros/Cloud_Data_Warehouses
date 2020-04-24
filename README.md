@@ -1,5 +1,8 @@
 # Cloud Data Warehouses
-Data Modeling for the company Sparkify. The data is a collection of songs and user activities on their new music streaming app. The goal of the program is to understand what songs users are listening to. The information comes from two JSON directories the datasets are in S3 AWS. The program is a Postgres database with tables designed to optimize queries on song play. The ETL pipeline was created in python.\
+Data Modeling for the company Sparkify. The data is a collection of songs and user activities on their new music streaming app. The goal of the program is to understand what songs users are listening to. The information comes from two JSON directories, the datasets are located in S3 AWS. The program is a postgreSQL database with tables for optimizing song playback queries. The ETL pipeline was created in Python.\
+\
+Translated with www.DeepL.com/Translator (free version)
+
 \
 **ETL explanation**
 ![focus](imagines_DWH/ETL.png)\
