@@ -53,7 +53,7 @@ songplay:  songplay_id, start_time, user_id, level, song_id, artist_id, session_
     2.2) copy the information of the two S3 AWS datasets into SQL tables (staging_song, staging_events(page=NextSong)) with the function load_staging_tables\
     2.3) load the information from the staging tables into the fact and dim tables
 
-## querys and dwh data (sql_queries.py and dwh.cfg)
+## querys
 ### sql_queries.py
 in sql_queries.py are the 4 kinds of basics queries: 
 
@@ -84,5 +84,6 @@ basic queries:
     artist_table_insert
     time_table_insert
 
-## dhw.cfg
+## DHW information 
+**dhw.cfg**
 in the file dhw is the information about the AWS cluster in redschift and the AIM role. The path from the S3-buckets are in this file as well
