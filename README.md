@@ -35,12 +35,12 @@ JOIN beteween staging_song und staging_events (songplay)\
 songplay:  songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 
 ## Program description steps (create_tables.py and etl.py)
-1) create_tables.py\
+**1) create_tables.py**\
     1.1) connect to datawarehouse and SQL database\
     1.2) Drop all tables with fuction drop_tables\
     1.3) create all tables with the fuction create_tables
 
-2) etl.py\
+**2) etl.py**\
     2.1) connect to datawarehouse and SQL database\
     2.2) copy the information of the two S3 AWS datasets into SQL tables (staging_song, staging_events(page=NextSong)) with the function load_staging_tables\
     2.3) load the information from the staging tables into the fact and dim tables
