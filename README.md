@@ -1,5 +1,8 @@
 # Cloud Data Warehouses
 Data Modelling for the company Sparkify. The data is a collection of songs and user activities on their new music streaming app. The goal of the program is to understand what songs users are listening to. The information comes from two JSON directories the datasets are in S3 AWS. The program is a Postgres database with tables designed to optimize queries on song play analysis and an ETL pipeline created in python.\
+\
+**ETL explanation**
+![focus](imagines_DWH/ETL.png)\
  \
 ![focus](imagines_DWH/Project_Architecture_DWH.png)
 
@@ -34,9 +37,6 @@ Data from Log Dataset as staging_events (time_table, users) + NextSong
 **Fact Table**\
 JOIN beteween staging_song und staging_events (songplay)\
 songplay:  songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
-
-**ETL explanation**
-![focus](imagines_DWH/ETL.png)\
 
 ## Program description steps (create_tables.py and etl.py)
 **1) create_tables.py**\
