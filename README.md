@@ -18,10 +18,10 @@ columns: artist, auth, firstName, gender, itemInSession, lastName, length, level
 
 ## Tables data base in Posgres
 Basic Table (Data from S3 aws) staging_song, staging_events
-1) **Song Data**:   's3://udacity-dend/song_data\'
+1) **Song Data**:   's3://udacity-dend/song_data'\
    staging_song: num_songs, artist_id, artist_latitude, artist_longitude, artist_location, artist_name, song_id, title, duration, year
 
-2) **Log Data**:    's3://udacity-dend/log_data' ; **Log data json path**: 's3://udacity-dend/log_json_path.json\'
+2) **Log Data**:    's3://udacity-dend/log_data' ; **Log data json path**: 's3://udacity-dend/log_json_path.json'\
    staging_events: staging_event_key, artist, auth, firstName, gender, iteminSession, lastName, length, level, location, method, page =   Next Song,    registration, sessionId, song, status, ts, userAgent, userId\
 it will be only load the row if page = NextSong
 
