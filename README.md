@@ -34,7 +34,7 @@ Data from Log Dataset as staging_events (time_table, users) + NextSong
 **Fact Table**\
 JOIN beteween staging_song und staging_events (songplay)\
 songplay:  songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
-\
+
 **ETL explanation**
 ![focus](imagines_DWH/ETL.png)\
 
